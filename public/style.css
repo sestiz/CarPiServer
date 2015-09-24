@@ -1,0 +1,116 @@
+.mdl-layout__container{
+	background:#142A36;
+}
+#Navigation_Section{
+	background:#265169;
+}
+#MainAction_Music{
+	background:url("MainAction_Music.png");
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-position:center 35%;
+}
+#MainAction_FM{
+	background:url("MainAction_FM.png");
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-position:center 35%;
+}
+#MainAction_Video{
+	background:url("MainAction_Videos.png");
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-position:center 35%;
+}
+#MainAction_Settings{
+	background:url("MainAction_Settings.png");
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-position:center 35%;
+}
+.mdl-layout__drawer-button .material-icons{
+    padding-top: 10px;
+}
+
+.page-layout{
+	display:none;
+}
+.page-current{
+	display:block !important;
+}
+
+/* TILE SECTION */
+
+.tile{
+	margin:20px 20px 0px 20px;
+	box-shadow:0px 0px 1px 0px rgba(255,255,255,0.7);
+	position:relative;
+	transition:0.3s all ease;
+	float:left;
+	overflow:hidden;
+}
+.tile:active{
+	box-shadow:0px 1px 3px 2px rgba(255,255,255,0.7);
+}
+
+
+/* TILE SIZE */
+.tile-lg{
+	height:17em;
+	width:17em;
+	border-radius:15px;
+}
+
+
+/* TILE BACKGROUND COLOR */
+.tile-background-color:before{
+	content:'';	
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+.tile-blue:before{
+	background-color:148CCC;
+}
+.tile-red:before{
+	background-color:#FF5840;
+}
+.tile-orange:before{
+	background-color:#CC0110;
+}
+
+
+
+/* TILE TITLE */
+.tile-title{	
+	text-transform:uppercase;
+	position:absolute;
+	bottom:0.3em;
+	text-align:center;
+	width:100%;
+}
+
+
+/* TILE TITLE SIZE */
+.tile-title-lg{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:3em;
+	line-height:0.8em;
+}
+.tile-title-md{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:3em;
+	line-height:0.8em;
+}
+
+/* TILE TITLE COLOR */
+.tile-title-white{
+	color:#FFF;
+	/*text-shadow:0px 0px 5px #555;*/
+}
+.tile-title-black{
+	color:#444;
+}
